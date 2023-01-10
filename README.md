@@ -26,3 +26,6 @@ In the wallet section the program displays the funds avaiable, user can easily d
 
 ### Become a rider
 There is a possibility to sign up for a driver, the program will ask some question and assign user to *drivers.txt* or *lux_drivers.txt* (it depends on what car the user drives) 
+
+
+The program will be rewritten in future using gui. but it might take some time for me to learn it :)
