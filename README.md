@@ -19,5 +19,10 @@ When new user has been registered, they can already sign in. The system is going
 After successfully signing in, user can choose betweend 4 options: Take a ride/Wallet/ Become a driver/ Log out
 
 ### Take a ride 
-This one is the main function of the program. Firstly, the system will ask user to choose the class of a ride (cheaper or more expensive), then it will show their current localization by randomly choosing localizations from 'localization.txt'. Then it will ask to choose the destination point: there are 2 choices (also randomly chosen from 'destination.txt'). After choosing one it will show user the distance between those two places, a cost of the ride and how much money do they have left. 
+This one is the main function of the program. Firstly, the system will ask user to choose the class of a ride (cheaper or more expensive), then it will show their current localization by choosing it randomly from 'localization.txt'. Then it will ask to choose the destination point: there are 2 choices (also randomly chosen from 'destination.txt'). After choosing one it will show user the distance between those two places, a cost of the ride and how much money do they have left. 
 
+### Wallet
+In the wallet section the program displays the funds avaiable, user can easily deposit money by typing the amount of $ which they wish to add - the program is going to open wallet assigned to the user, read the funds they already have, and add up the number given; it is also possible to withdraw all money from your acc
+
+### Become a rider
+There is a possibility to sign up for a driver, the program will ask some question and assign user to drivers or *lux_drivers* (it depends on what car the user drives) 
