@@ -3,7 +3,7 @@ Taxify is a simple taxi system using console to output data
 
 Taxify contains 3 files: *main.py* which uses *LoginSystem.py* and *taxi_system.py* and their classes to run the program. 
 
-### ! NEEDED: PWINPUT MODULE:
+### ! PWINPUT MODULE INSTALLATION REQUIRED: 
 > cmd command: pip install pwinput
 
 ## Menu
