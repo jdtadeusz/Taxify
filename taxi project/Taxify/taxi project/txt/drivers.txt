@@ -1,0 +1,10 @@
+Igor,Seat,Toledo(II)  
+Sebastian,Renault,Clio
+Kacper,Volkswagen,Golf(IV)
+Janusz,Skoda,Octavia
+Marcin,Hyundai,i30
+Konrad,Audi,s8
+Mikolaj,Mercedes,S
+Hubert,Opel,Astra H
+Alan,Honda,Civic
+Janusz,Renault,Twingo
