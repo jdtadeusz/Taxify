@@ -25,7 +25,7 @@ This one is the main function of the program. Firstly, the system will ask user 
 In the wallet section the program displays the funds avaiable, user can easily deposit money by typing the amount of $ which they wish to add - the program is going to open wallet assigned to the user, read the funds they already have, and add up the number given; it is also possible to withdraw all money from your acc
 
 ### Become a rider
-There is a possibility to sign up for a driver, the program will ask some question and assign user to *drivers.txt* or *lux_drivers.txt* (it depends on what car the user drives) 
+There is a possibility to sign up for a driver, the program will ask some questions and assign user to *drivers.txt* or *lux_drivers.txt* (it depends on what car the user drives) 
 
 
 The program will be rewritten in future using gui, but it might take some time for me to learn it :)
