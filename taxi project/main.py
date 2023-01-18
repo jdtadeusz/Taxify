@@ -13,7 +13,7 @@ def main_menu():        #glowne menu: logowanie/ opcje
     try:
         option = int(input("Option: "))
     except ValueError:
-        Valueerr()
+        Valueerr_main()
     if option == 1:
         system('cls')
         print("--- TAXIFY ---")
@@ -27,7 +27,7 @@ def main_menu():        #glowne menu: logowanie/ opcje
         try:
             option_ = int(input("Option: "))
         except ValueError:
-            Valueerr()
+            Valueerr_main()
         if option_ == 1:
             system('cls')
             print("--- TAXIFY ---")
@@ -36,7 +36,7 @@ def main_menu():        #glowne menu: logowanie/ opcje
             try:
                 dec = int(input("Option: "))
             except ValueError:
-                Valueerr()
+                Valueerr_main()
             if dec == 1:
                 system('cls')
                 main_menu()
@@ -53,7 +53,7 @@ def main_menu():        #glowne menu: logowanie/ opcje
             try:
                 dec_1 = int(input("Option: "))
             except ValueError:
-                Valueerr()
+                Valueerr_main()
             if dec_1 == 1:
                 system('cls')
                 main_menu()
@@ -79,7 +79,7 @@ def main_menu():        #glowne menu: logowanie/ opcje
         try:
             dec = int(input("Option: "))
         except ValueError:
-            Valueerr()
+            Valueerr_main()
             
         if dec == 1:
             print("See You next time! :)")
@@ -94,7 +94,7 @@ def pre_menu():         #opcje logowania
     try:
         option = int(input("Option: "))
     except ValueError:
-        Valueerr()
+        Valueerr_main()
     
     if option == 1:
         system('cls')
@@ -172,7 +172,13 @@ def animation(x):
         i += 1
     print("")
 
-def Valueerr():
+def Valueerr_main():
+        print("Use numbers to navigate the program!")
+        animation("Loading main menu...")
+        system('cls')
+        main_menu()
+
+def Valueerr_nmain():
         print("Use numbers to navigate the program!")
         animation("Loading main menu...")
         system('cls')
@@ -184,7 +190,7 @@ def menu():             #glowne menu aplikacji taxi
     try:
         option = int(input("Option: "))
     except ValueError:
-        Valueerr()
+        Valueerr_nmain()
     if option == 1:
         system('cls')
         print("")
@@ -197,7 +203,7 @@ def menu():             #glowne menu aplikacji taxi
         try:
             _option = int(input("Option: "))
         except ValueError:
-            Valueerr()
+            Valueerr_nmain()
             
         if _option == 1:
             system('cls')
@@ -214,7 +220,7 @@ def menu():             #glowne menu aplikacji taxi
             try:
                 dec = int(input("Option: "))
             except ValueError:
-                Valueerr()
+                Valueerr_nmain()
                 
             if dec == 1:
                 system('cls')
@@ -238,7 +244,7 @@ def menu():             #glowne menu aplikacji taxi
         try:
             dec_2 = int(input("Option: "))
         except ValueError:
-            Valueerr()
+            Valueerr_nmain()
             
         if dec_2 == 1:
             system('cls')
@@ -257,7 +263,7 @@ def menu():             #glowne menu aplikacji taxi
         try:
             dec_1 = int(input("Option: "))
         except ValueError:
-            Valueerr()
+            Valueerr_nmain()
             
         if dec_1 == 1:
             system('cls')
