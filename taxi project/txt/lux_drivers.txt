@@ -1,6 +1,0 @@
-Sebastian,bmw,e36
-Kamil,bmw,x5
-Mikolaj,BMW,m8
-Mateusz,bmw,iX
-Micha³,bmw,m5
-Maciej,bmw,iX
