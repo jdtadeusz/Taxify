@@ -4,7 +4,7 @@ Taxify is a simple taxi system using console to output data
 Taxify contains 3 files: *main.py* which uses *LoginSystem.py* and *taxi_system.py* and their classes to run the program. 
 
 ### ! PWINPUT MODULE INSTALLATION REQUIRED: 
-> cmd command: ###pip install pwinput
+> cmd command: **pip install pwinput
 
 ## Menu
 Opening menu is simple: Main menu wherein user can register/ login; Options wherein user can see all signed up users and clear data by typing the right security code (which is 91322), if user decides to do so, all users from 'users1.txt' will be removed as so as all wallets files; or to simple Exit the program.
